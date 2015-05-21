@@ -110,7 +110,7 @@
 		global $DOARAMA_API_NAME;
 		global $DOARAMA_API_KEY;
 		global $DOARAMA_BASE_URL;		
-		
+		//echo ("request: $url_endpoint - data: $data - user_id: $user_id<br>");
 		// create a new cURL resource
 		$ch = curl_init();
 
@@ -128,7 +128,7 @@
 		);
 			
 		// If we aren't doing a track upload then add in headers for JSON data content
-		if (strpos($data, '@') === false) {			
+		if (!is_array($data)) {			
 			array_push($headers, "Content-Type: application/json");
 			array_push($headers, "Content-Length: " . strlen($data));
 		}
@@ -139,7 +139,7 @@
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 
 		$response = curl_exec($ch);
-
+		//echo "response = $response<br>";
 		if (curl_errno($ch)) { 
 			error_log("Curl Error: " . curl_error($ch));
 			error_log("Failed to upload track to doarama: $track_filepath");
