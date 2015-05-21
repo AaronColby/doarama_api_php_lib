@@ -1,0 +1,74 @@
+[
+  {
+    "id":"document",
+    "version":"1.0"
+  },
+{
+  "id":"Spines",
+    "position":{
+       "cartographicDegrees":[-116.47935, 32.9789, 0]
+    },
+    "label":{"text":"Spines", "eyeOffset":{"cartesian":[0,0,0]}},
+    "ellipse":{
+        "semiMajorAxis":1000,
+        "semiMinorAxis":1000,
+        "material":{
+          "solidColor":{
+            "color":{
+                "rgba":[255,0,0,75]
+            }
+          }
+        },	
+        "outline":true,
+		"fill":true,
+		"outlineColor":{
+			"rgba":[
+			  123,0,0,255
+			]
+		},		
+        "extrudedHeight":3000
+    }
+},{
+  "id":"Granit",
+    "position":{
+       "cartographicDegrees":[-116.484733, 33.046883, 0]
+    },
+    "label":{"text":"Granit", "eyeOffset":{"cartesian":[0,0,0]}},
+    "ellipse":{
+        "semiMajorAxis":2000,
+        "semiMinorAxis":2000,
+        "material":{
+          "solidColor":{
+            "color":{
+                "rgba":[255,0,0,75]
+            }
+          }
+        },	
+        "outline":true,
+		"fill":true,
+		"outlineColor":{
+			"rgba":[
+			  123,0,0,255
+			]
+		},		
+        "extrudedHeight":3000
+    }
+},{
+    "id":"thickPolyLine",
+    "polyline":{
+        "material":{
+          "solidColor":{
+            "color":{
+                "rgba":[255,0,0,255]
+            }
+          }
+        },	
+		"positions":{
+		  "cartographicDegrees":[-116.47935, 32.9789, 1196, -116.484733, 33.046883, 1648]
+		},		
+      "outlineWidth":0,
+      "width":10,
+      "show":true
+    }
+  } 
+]
