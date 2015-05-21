@@ -6,7 +6,7 @@ This is a quick example of a uploading activities to Doarama, then authoring a v
 
 To view the visualization, you can link to the following link directly or embed in an iframe:
 
-https://api.doarama.com/api/0.2/visualisation?k=[doarama_key]E&name=[track1_nm]&name=[track2_nm]&avatar=http%3A%2F%2Fwww.yourwebsite.com%2F[track1_avatar].jpg&dzml=http%3A%2F%2www.yourwebsite.com%2Fcircle.dzml
+https://api.doarama.com/api/0.2/visualisation?k=[doarama_key]E&name=[track1_nm]&name=[track2_nm]&avatar=http%3A%2F%2Fwww.yourwebsite.com%2F[track1_avatar].jpg&dzml=http%3A%2F%2www.yourwebsite.com%2Fcones_and_path.dzml
 
 [doarama_key] = doarama_key of the visualization you want to watch
 
