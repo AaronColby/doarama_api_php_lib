@@ -1,4 +1,6 @@
 # doarama_api_php_lib
+Created using PHP 5.2.17
+
 PHP Library function for Doarama API to upload tracks and create visualization for v0.2 of the API: 
 http://www.doarama.com/api/0.2/docs
 
