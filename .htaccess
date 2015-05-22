@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule avatar/([0-9]+) avatar_server.php?activity_id=$1 [L,NC]
