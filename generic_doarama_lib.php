@@ -3,7 +3,7 @@
 	$DOARAMA_API_KEY="bar";
 
 	//May need to change this depending on if you are on production or QA server
-	$DOARAMA_BASE_URL = "https://api.doarama.com/api/0.2/";
+	$DOARAMA_BASE_URL = "http://api.doarama.com/api/0.2/";
 	
 	$MASTER_USER_ID = "1"; //Set this to something that will uniquely identify the creator of each visualization (kind of like an admin_id)
 	
