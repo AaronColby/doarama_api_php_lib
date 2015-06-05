@@ -14,7 +14,7 @@ https://api.doarama.com/api/0.2/visualisation?k=[doarama_key]E&name=[track1_nm]&
 
 [track1_nm] = name of the first track uploaded.  It appears that names are assigned to tracks in the order that tracks are uploaded/created.  Therefore it is important to have some way to query your database for activities in the visualization in the proper order they were created (timestamp, auto inc primary id, etc)
 
-[track1_avatar] = avatar to assign to track 1.  Ideally this should be 32x32 but it seems other sizes work.  As with track name these are assigned to the tracks in the order they were initially created.  Eventually you'll want to setup your own API to handle avatar assignment. 
+[track1_avatar] = avatar to assign to track 1.  Although it is mentioned that the icons are 32x32, I think the ideal size is 100x100 as the picture that shows focus on the top right is much bigger than the one shown on the map for each tracklog.  As with track name these are assigned to the tracks in the order they were initially created.  Eventually you'll want to setup your own API to handle avatar assignment. 
 
 Finally have a look at my example of DZML (based on CZML).  It draws two cylinders and simple polyline between them.  The language has terrible documentation and terrible support.  Most questions I found were from 2014 or earlier.  The biggest thing to note is that in CZML coordinates are LONG, LAT which is the opposite of most co-ordinate systems that I'm aware of.  Normally it would be LAT, LONG.  Height is given in meters
 
